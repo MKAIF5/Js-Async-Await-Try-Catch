@@ -6,9 +6,14 @@ function getData() {
     })
 };
 
+
+async function main(){
 console.log("load data");
 
 let data =  await getData();
 console.log(data);
 console.log("process data");
 console.log("task 2");
+}
+
+main()
