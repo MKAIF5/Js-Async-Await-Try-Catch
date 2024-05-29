@@ -28,22 +28,22 @@
 
 //TRY CATCH
 
-setTimeout(() =>{
-    console.log("loading your wifi .. please wait ...!");
-} , 1000)
+// setTimeout(() =>{
+//     console.log("loading your wifi .. please wait ...!");
+// } , 1000)
 
 
-try{
+// try{
 
-    console.log(kaif);
-}catch(error){
-    console.log(error);
-}
+//     console.log(kaif);
+// }catch(error){
+//     console.log(error);
+// }
 
-setTimeout(() =>{
-    console.log("detect your virus in wifi .. please wait ...!");
-} , 2000)
+// setTimeout(() =>{
+//     console.log("detect your virus in wifi .. please wait ...!");
+// } , 2000)
 
-setTimeout(() =>{
-    console.log("confirmed connect in  your wifi .. you are login");
-} , 5000)
+// setTimeout(() =>{
+//     console.log("confirmed connect in  your wifi .. you are login");
+// } , 5000)
