@@ -50,20 +50,20 @@
 
 
 try {
-    let age  = prompt("Enter Your Age")
-    age  = Number.parseInt(age)
-    if(age>=100){
-
+    let age = prompt("Enter Your Age")
+    age = Number.parseInt(age)
+    if (age >= 100) {
         throw new ReferenceError("You Age Is Not Probably Not For Coding")
+
     }
 
-    else{
+    else {
         console.log("Your Are Probably In Job For Coding");
     }
 }
 
-catch(error){
-   console.log( error.name);
-   console.log( error.message);
-   console.log( error.stack);
+catch (error) {
+    console.log(error.name);
+    console.log(error.message);
+    console.log(error.stack);
 }
