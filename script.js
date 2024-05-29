@@ -50,8 +50,16 @@
 
 
 try {
-    console.log(kaif);
-    throw new ReferenceError("kaif is not good is coding")
+    let age  = prompt("Enter Your Age")
+    age  = Number.parseInt(age)
+    if(age>=100){
+
+        throw new ReferenceError("You Age Is Not Probably Not For Coding")
+    }
+
+    else{
+        console.log("Your Are Probably In Job For Coding");
+    }
 }
 
 catch(error){
