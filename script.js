@@ -50,11 +50,12 @@
 
 
 try {
+    console.log(kaif);
     throw new ReferenceError("kaif is not good is coding")
-    console.log();
 }
 
 catch(error){
    console.log( error.name);
    console.log( error.message);
+   console.log( error.stack);
 }
