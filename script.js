@@ -47,3 +47,14 @@
 // setTimeout(() =>{
 //     console.log("confirmed connect in  your wifi .. you are login");
 // } , 5000)
+
+
+try {
+    throw new ReferenceError("kaif is not good is coding")
+    console.log();
+}
+
+catch(error){
+   console.log( error.name);
+   console.log( error.message);
+}
